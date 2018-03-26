@@ -1,3 +1,5 @@
+require 'pry'
+
 def new_hash
  {}
 end
@@ -9,7 +11,9 @@ actor = {
 end
 
 def monopoly
-	monopoly = {}
+	monopoly = {
+	  :railroads => {}
+	}
 
 end
 
